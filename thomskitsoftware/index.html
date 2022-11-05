@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomskit Softwares </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"</a>
+            <div class="nav-links" id="navLinks">
+              <!--<i class="fa fa-times" onclick="hideMenu()"><i> <!---adding the closing icon for small devices-->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contacts.html">CONTACT</a></li>
+                </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>  <!---adding the menue icon from font awesome for menu-->
+
+        </nav>
+
+        <div class="text-box">
+          <h1>World's Best Software developers</h1>
+            <p>Thomskit Software Company is one of the best software developers company in the world<br>
+            We provide software Solutions to technological problems.</p>
+            <a href="about.html" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+<!------------SERVICES-->
+<section class="services">
+    <h1>Services We Offer</h1>
+    <p>Thomskit Softwares  offers you the following services</p>
+
+    <div class="row">
+        <div class="service-col">
+            <h3>Website Designing</h3>
+            <p style="color:#fff ;"><b>We do deigning of websites ranging from simple marketing websites to complex websites 
+                <br>at a customer friendly price. Both static and dynamic websites solutions are available here.</b></p>
+        </div>
+        <div class="service-col">
+            <h3>Database Designing</h3>
+            <p style="color: #fff;"><b>We have been among the top<br> database developers in the world. Our prices for this service
+            are pocket friendly</b></p>
+        </div>
+        
+        <div class="service-col">
+            <h3>Android Application Development</h3>
+            <p style="color:#fff;"><b>In the records, we are top in the list
+            in developing android applications, visit our play store account.</b></p>
+        </div>
+        <div class="service-col">
+            <h3>Office Automation</h3>
+            <p style="color:#fff;">Do you want to automate your office system?
+            We are here for you, we automate all sort of systems at a friendly price.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <h1>What Our Customer Say
+    </h1>
+    <p>Our customers have given feedback on the services we offered to them<br>
+        Just to capture a few, see what they say about us.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>You are the best developers i have ever come across, you deliver high quality
+                    work in within the stipulated time, your customer service relations are on another level,
+                    your prices are amazing. I recommend you with five stars!
+                </p>
+                <h3>Brian Johnson</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            
+            </div>
+        </div>
+        
+        
+        <div class="testimonial-col">
+            <img src="images/user3.jpg">
+            <div>
+                <p>I am rating you four stars so that you dont feel you have arrived in a 
+                    comfort zone,but you continue delivering the best in the globe. I had been dissapointed 
+                    thrice on my hotel reservation system but when i came across you, the solution was right there.
+                </p>
+                <h3>Sylvester Ahnil</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---call to action-->
+<section class="cta">
+    <h1>Book  Our Services <br>Anywhere In The World</h1>
+    <a href="contacts.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!---footer-->
+
+<section class="footer">
+    <h5>ABOUT US</h5>
+    <P>Follow our social media handles @thomskit softwares</P>
+    <div class="icons">
+        <i class="fa fa-facebook">acebook</i>
+        <i class="fa fa-twitter">twitter</i>
+        <i class="fa fa-instagram">instagram</i>
+    </div>
+    <p>made With<i class="fa fa-heart-o"></i> by Thomas Kiti</p>
+</section>
+
+
+
+
+
+
+
+
+
+<!-----javascript for toggle menu---->
+<script>
+    var navLinks =document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right ="-200px"; 
+    }
+</script>
+
+</body>
+</html>

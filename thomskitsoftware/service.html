@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomskit Softwares </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"</a>
+            <div class="nav-links" id="navLinks">
+              <!--<i class="fa fa-times" onclick="hideMenu()"><i> <!---adding the closing icon for small devices-->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contacts.html">CONTACT</a></li>
+                </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>  <!---adding the menue icon from font awesome for menu-->
+
+        </nav>
+
+        <h1>Our Services</h1>
+    </section>
+    <section class="services">
+      <h1>Thomskit Softwares Offers You The Following Services</h1>
+      <p>We offer the following services</p>
+  
+      <div class="row">
+          <div class="service-col">
+              <h3>Website Designing</h3>
+              <p>We do deigning of websites ranging from simple marketing websites to complex websites 
+                  <br>at a customer friendly price.</p>
+          </div>
+          <div class="service-col">
+              <h3>Database Designing</h3>
+              <p>We do deigning of websites ranging from simple marketing websites to complex websites 
+                  <br>at a customer friendly price.</p>
+          </div>
+          
+          <div class="service-col">
+              <h3>Android Application Development</h3>
+              <p>We do deigning of websites ranging from simple marketing websites to complex websites 
+                  <br>at a customer friendly price.</p>
+          </div>
+          <div class="service-col">
+              <h3>Office Automation</h3>
+              <p>We do deigning of websites ranging from simple marketing websites to complex websites 
+                  <br>at a customer friendly price.</p>
+          </div>
+      </div>
+  </section>
+  
+  
+
+    
+
+<!---footer-->
+
+<section class="footer">
+    <h5>ABOUT US</h5>
+    <P>We are an amazing campany</P>
+    <div class="icons">
+        <i class="fa fa-facebook">acebook</i>
+        <i class="fa fa-twitter">twitter</i>
+        <i class="fa fa-instagram">instagram</i>
+    </div>
+    <p>made With<i class="fa fa-heart-o"></i> by Thomas Kiti</p>
+</section>
+
+
+
+
+
+
+
+
+
+<!-----javascript for toggle menu---->
+<script>
+    var navLinks =document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right ="-200px"; 
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomskit Softwares </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"</a>
+            <div class="nav-links" id="navLinks">
+              <!--<i class="fa fa-times" onclick="hideMenu()"><i> <!---adding the closing icon for small devices-->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contacts.html">CONTACT</a></li>
+                </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>  <!---adding the menue icon from font awesome for menu-->
+
+        </nav>
+
+        <h1>contact Us</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.568993578964!2d40.11468431421228!3d-3.207261641641274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18158e4d1796ea39%3A0xc9800b2e909c9411!2sMalindi%20Complex!5e0!3m2!1ssw!2ske!4v1667643724624!5m2!1ssw!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>Malindi Complex alongside Lamu Road</h5>
+                <p>Complex Building First Floor</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>254735146183</h5>
+                <p>Monday to Saturday,8:00AM- 4:00 PM</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <span>
+                <h5>thomskitsoftwares@gmail.com</h5>
+                <p>Email Us Your Query</p>
+            </span>
+        </div>
+    </div>
+    
+        <div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name"required>
+                    <input type="email"  name="email" placeholder="Enter Email Address"required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject"required>
+                    <textarea rows="8" name="message" placeholder="Message"required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+
+
+            </div>
+        </div>
+    </section>
+    
+
+   
+
+
+
+<!---footer-->
+
+<section class="footer">
+    <h5>ABOUT US</h5>
+    <P>Follow Us On Our Social Media Platforms @thomskit software</P>
+    <div class="icons">
+        <i class="fa fa-facebook">acebook</i>
+        <i class="fa fa-twitter">twitter</i>
+        <i class="fa fa-instagram">instagram</i>
+    </div>
+    <p>made With<i class="fa fa-heart-o"></i> by Thomas Kiti</p>
+</section>
+
+
+
+
+
+
+
+
+
+<!-----javascript for toggle menu---->
+<script>
+    var navLinks =document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right ="-200px"; 
+    }
+</script>
+
+</body>
+</html>
